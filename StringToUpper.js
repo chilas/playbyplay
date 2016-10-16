@@ -2,7 +2,7 @@
 function StringToUpper(word) {
     if (typeof word !== "string")
         throw new Error("Can not convert non-string values");
-    var upperString;
+    var upperString = null;
     for (var i = 0; i < word.length; i++) {
         var charCode = void 0;
         var currentCharCode = word.charCodeAt(i);

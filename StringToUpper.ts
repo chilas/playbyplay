@@ -2,7 +2,7 @@ export function StringToUpper(word: string): string {
     if (typeof word !== "string")
         throw new Error("Can not convert non-string values");
 
-    let upperString: string;
+    let upperString: string = "";
 
     for (let i = 0; i < word.length; i++) {
         let charCode: number;
